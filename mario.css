@@ -1,0 +1,35 @@
+.Flip{
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+.blocks{
+  display: inline;
+  background-image: url('https://github.com/meepy314/MyImageHostingMagic/blob/master/marioblock.png?raw=true');
+}
+img.blocks{
+  border-style: solid;
+  border-width: 2px;
+}
+#player1{
+  background-image: url('https://github.com/meepy314/MyImageHostingMagic/blob/master/mariospritesheet1.png?raw=true');
+  background-position: 334px 496px;
+  height: 16px;
+  width: 12px;
+  position: absolute;
+}
+body{
+  background: #6B8CFF;
+}
+.mushroom{
+  height: 16px;
+  width: 16px;
+  background-image: url('https://github.com/meepy314/MyImageHostingMagic/blob/master/enemies.png?raw=true');
+  background-position: 808px 112px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
